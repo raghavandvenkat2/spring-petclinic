@@ -427,6 +427,8 @@
         <repository>
             <id>deployment</id>
             <url>http://127.0.0.1:8081/nexus/content/repositories/releases</url>
+	   <enabled>true</enabled>
+           <updatePolicy>always</updatePolicy>
         </repository>
     </distributionManagement>
 
